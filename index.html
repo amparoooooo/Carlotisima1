@@ -10,6 +10,31 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&family=Pacifico&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+	theme: {
+		extend: {
+			colors: {
+				cream: '#FFF7ED',
+				mint: '#D1FADF',
+				primary: '#FFD1DC',
+				secondary: '#7C3AED',
+			},
+			borderRadius: {
+				button: '1.5rem',
+			},
+			fontFamily: {
+				'Pacifico': ['Pacifico', 'cursive'],
+				'Montserrat': ['Montserrat', 'sans-serif'],
+				'Open_Sans': ['Open Sans', 'sans-serif'],
+				'Playfair_Display': ['Playfair Display', 'serif'],
+			},
+		},
+	},
+}
+</script>
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="bg-cream font-['Open_Sans']">

@@ -9,6 +9,31 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&family=Pacifico&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+	theme: {
+		extend: {
+			colors: {
+				cream: '#FFF7ED',
+				mint: '#D1FADF',
+				primary: '#FFD1DC',
+				secondary: '#7C3AED',
+			},
+			borderRadius: {
+				button: '1.5rem',
+			},
+			fontFamily: {
+				'Pacifico': ['Pacifico', 'cursive'],
+				'Montserrat': ['Montserrat', 'sans-serif'],
+				'Open_Sans': ['Open Sans', 'sans-serif'],
+				'Playfair_Display': ['Playfair Display', 'serif'],
+			},
+		},
+	},
+}
+</script>
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="bg-cream font-['Open_Sans']">
@@ -172,7 +197,7 @@ Limpiar Filtros
 <div id="productsContainer" class="grid-view">
 <div class="product-hover bg-white rounded-2xl overflow-hidden shadow-sm">
 <div class="relative">
-<div class="h-64 bg-cover bg-center" style="background-image: url(&#39;https://readdy.ai/api/search-image?query=elegant%20chocolate%20strawberry%20charlotte%20cake%20with%20fresh%20berries%20and%20cream%2C%20professional%20food%20photography%2C%20marble%20background%2C%20luxurious%20presentation&amp;width=400&amp;height=300&amp;seq=prod1&amp;orientation=landscape&#39;)"></div>
+<div class="h-96 bg-cover bg-center" style="background-image: url(&#39;https://readdy.ai/api/search-image?query=elegant%20chocolate%20strawberry%20charlotte%20cake%20with%20fresh%20berries%20and%20cream%2C%20professional%20food%20photography%2C%20marble%20background%2C%20luxurious%20presentation&amp;width=400&amp;height=300&amp;seq=prod1&amp;orientation=landscape&#39;)"></div>
 <span class="absolute top-4 left-4 bg-primary text-secondary px-3 py-1 rounded-full text-xs font-medium">Popular</span>
 </div>
 <div class="p-6">
@@ -406,34 +431,6 @@ Agregar
 </div>
 </div>
 
-<div class="product-hover bg-white rounded-2xl overflow-hidden shadow-sm">
-<div class="relative">
-<div class="h-64 bg-cover bg-center" style="background-image: url(&#39;https://readdy.ai/api/search-image?query=red%20velvet%20charlotte%20cake%20with%20cream%20cheese%20frosting%20and%20red%20velvet%20crumbs%2C%20elegant%20presentation%2C%20professional%20food%20photography&amp;width=400&amp;height=300&amp;seq=prod9&amp;orientation=landscape&#39;)"></div>
-</div>
-<div class="p-6">
-<h3 class="text-xl font-[&#39;Playfair_Display&#39;] font-semibold text-secondary mb-2">Carlota Red Velvet</h3>
-<p class="text-secondary/70 text-sm mb-4">Elegante carlota con bizcocho red velvet y crema de queso philadelphia</p>
-<div class="flex items-center justify-between mb-4">
-<div class="flex items-center space-x-2">
-<div class="flex text-yellow-400">
-<i class="ri-star-fill text-xs"></i>
-<i class="ri-star-fill text-xs"></i>
-<i class="ri-star-fill text-xs"></i>
-<i class="ri-star-fill text-xs"></i>
-<i class="ri-star-line text-xs"></i>
-</div>
-<span class="text-secondary/60 text-xs">(22)</span>
-</div>
-<span class="text-secondary/60 text-xs">Mediana</span>
-</div>
-<div class="flex justify-between items-center">
-<span class="text-2xl font-bold text-secondary">$36.99</span>
-<button class="bg-primary text-secondary px-4 py-2 !rounded-button font-medium hover:bg-opacity-80 transition-colors whitespace-nowrap">
-Agregar
-</button>
-</div>
-</div>
-</div>
 </div>
 
 <div class="flex justify-center items-center space-x-4 mt-12">

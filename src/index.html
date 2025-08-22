@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carlotísima - Carlotas Artesanales Premium | Postres Únicos</title>
+<meta name="description" content="Descubre las carlotas artesanales más deliciosas de la ciudad. Sabores únicos, ingredientes premium y entrega a domicilio. ¡Ordena tu carlota perfecta hoy!">
+<meta name="keywords" content="carlotas, postres, repostería artesanal, dulces premium, entrega domicilio">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&family=Pacifico&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+	theme: {
+		extend: {
+			colors: {
+				cream: '#FFF7ED',
+				mint: '#D1FADF',
+				primary: '#FFD1DC',
+				secondary: '#7C3AED',
+			},
+			borderRadius: {
+				button: '1.5rem',
+			},
+			fontFamily: {
+				'Pacifico': ['Pacifico', 'cursive'],
+				'Montserrat': ['Montserrat', 'sans-serif'],
+				'Open_Sans': ['Open Sans', 'sans-serif'],
+				'Playfair_Display': ['Playfair Display', 'serif'],
+			},
+		},
+	},
+}
+</script>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-cream font-['Open_Sans']">
+<header class="bg-white shadow-sm sticky top-0 z-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-16">
+<div class="flex items-center">
+<h1 class="text-2xl font-['Pacifico'] text-secondary">Carlotísima</h1>
+</div>
+<nav class="hidden md:flex space-x-8">
+<a href="https://readdy.link/share/482fd6d02418d315e8090486841bf69e#inicio" class="text-secondary hover:text-primary transition-colors font-medium">Inicio</a>
+<a href="https://readdy.link/share/482fd6d02418d315e8090486841bf69e#productos" class="text-secondary hover:text-primary transition-colors font-medium">Productos</a>
+<a href="https://readdy.link/share/482fd6d02418d315e8090486841bf69e#sabores" class="text-secondary hover:text-primary transition-colors font-medium">Sabores</a>
+<a href="https://readdy.link/share/482fd6d02418d315e8090486841bf69e#pedidos" class="text-secondary hover:text-primary transition-colors font-medium">Pedidos</a>
+<a href="https://readdy.link/share/482fd6d02418d315e8090486841bf69e#contacto" class="text-secondary hover:text-primary transition-colors font-medium">Contacto</a>
+</nav>
+<div class="flex items-center space-x-4">
+<button class="w-10 h-10 flex items-center justify-center text-secondary hover:text-primary transition-colors relative">
+<i class="ri-shopping-cart-line text-xl"></i>
+<span class="absolute -top-2 -right-2 bg-primary text-secondary text-xs rounded-full w-5 h-5 flex items-center justify-center">3</span>
+</button>
+<button class="bg-primary text-secondary px-6 py-2 !rounded-button font-medium hover:bg-opacity-80 transition-colors whitespace-nowrap">
+Pedido Especial
+</button>
+<button class="md:hidden w-10 h-10 flex items-center justify-center">
+<i class="ri-menu-line text-xl text-secondary"></i>
+</button>
+</div>
+</div>
+</div>
+</header>
+<main>
+<section id="inicio" class="hero-bg relative min-h-screen flex items-center">
+<div class="absolute inset-0 bg-gradient-to-r from-cream/90 via-cream/60 to-transparent"></div>
+<div class="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="max-w-2xl">
+<div class="flex items-center space-x-2 mb-4">
+<span class="bg-primary text-secondary px-3 py-1 rounded-full text-sm font-medium">Entrega a Domicilio</span>
+<span class="bg-mint text-secondary px-3 py-1 rounded-full text-sm font-medium">Pedidos Personalizados</span>
+</div>
+<h1 class="text-5xl md:text-6xl font-['Playfair_Display'] font-bold text-secondary mb-6 leading-tight">
+Carlotas Artesanales con Sabor Único
+</h1>
+<p class="text-xl text-secondary/80 mb-8 font-['Montserrat'] leading-relaxed">
+Descubre el arte de la repostería fina con nuestras carlotas elaboradas con ingredientes premium y técnicas tradicionales. Cada bocado es una experiencia inolvidable.
+</p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="bg-secondary text-white px-8 py-4 !rounded-button font-semibold text-lg hover:bg-secondary/90 transition-colors whitespace-nowrap">
+Ordena Ahora
+</button>
+<a href="./Catálogo.html">
+<button class="border-2 border-secondary text-secondary px-8 py-4 !rounded-button font-semibold text-lg hover:bg-secondary hover:text-white transition-colors whitespace-nowrap">
+Ver Catálogo
+</button>
+</a>
+</div>
+<div class="flex items-center space-x-6 mt-8">
+<div class="flex items-center space-x-2">
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-star-fill text-yellow-400 text-lg"></i>
+</div>
+<span class="text-secondary font-medium">4.9/5 Estrellas</span>
+</div>
+<div class="flex items-center space-x-2">
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-truck-line text-primary text-lg"></i>
+</div>
+<span class="text-secondary font-medium">Entrega Gratis +$50</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="productos" class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-['Playfair_Display'] font-bold text-secondary mb-4">Nuestros Bestsellers</h2>
+<p class="text-xl text-secondary/70 font-['Montserrat'] max-w-2xl mx-auto">
+Las carlotas más populares que han conquistado el corazón de nuestros clientes
+</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="product-hover bg-cream rounded-2xl overflow-hidden">
+<div class="h-64 bg-cover bg-center" style="background-image: url('https://static.readdy.ai/image/099f62a4eb979305a3f714413ff64b3d/ad30cf7007fecfe785bfcb32edbc51b7.jfif')"></div>
+<div class="p-6">
+<h3 class="text-xl font-['Playfair_Display'] font-semibold text-secondary mb-2">Carlota de Maracuyá</h3>
+<p class="text-secondary/70 mb-4">Exquisita carlota con pulpa natural de maracuyá, crema suave y base de galletas tradicionales</p>
+<div class="flex justify-between items-center">
+<span class="text-2xl font-bold text-secondary">$28.99</span>
+<button class="bg-primary text-secondary px-4 py-2 !rounded-button font-medium hover:bg-opacity-80 transition-colors whitespace-nowrap">
+Agregar
+</button>
+</div>
+</div>
+</div>
+<div class="product-hover bg-cream rounded-2xl overflow-hidden">
+<div class="h-64 bg-cover bg-center" style="background-image: url('https://static.readdy.ai/image/099f62a4eb979305a3f714413ff64b3d/00eed029278c34bea3902b25166a2622.png')"></div>
+<div class="p-6">
+<h3 class="text-xl font-['Playfair_Display'] font-semibold text-secondary mb-2">Carlota Tropical de Mango</h3>
+<p class="text-secondary/70 mb-4">Exótica mezcla de mango maduro, maracuyá y vainilla bourbon sobre base de bizcocho</p>
+<div class="flex justify-between items-center">
+<span class="text-2xl font-bold text-secondary">$32.99</span>
+<button class="bg-primary text-secondary px-4 py-2 !rounded-button font-medium hover:bg-opacity-80 transition-colors whitespace-nowrap">
+Agregar
+</button>
+</div>
+</div>
+</div>
+<div class="product-hover bg-cream rounded-2xl overflow-hidden">
+<div class="h-64 bg-cover bg-center" style="background-image: url('https://static.readdy.ai/image/099f62a4eb979305a3f714413ff64b3d/c1f88320386286518faf4ff799ea75d2.png')"></div>
+<div class="p-6">
+<h3 class="text-xl font-['Playfair_Display'] font-semibold text-secondary mb-2">Carlota de Limón</h3>
+<p class="text-secondary/70 mb-4">Refrescante carlota de limón con crema batida y ralladura de limón fresco sobre base de galletas</p>
+<div class="flex justify-between items-center">
+<span class="text-2xl font-bold text-secondary">$32.99</span>
+<button class="bg-primary text-secondary px-4 py-2 !rounded-button font-medium hover:bg-opacity-80 transition-colors whitespace-nowrap">
+Agregar
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="sabores" class="py-20 bg-mint/30">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-['Playfair_Display'] font-bold text-secondary mb-4">Galería de Sabores</h2>
+<p class="text-xl text-secondary/70 font-['Montserrat'] max-w-2xl mx-auto">
+Explora nuestra amplia variedad de sabores únicos y combinaciones innovadoras
+</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+<div class="text-center group cursor-pointer">
+<div class="w-20 h-20 mx-auto mb-3 rounded-full bg-cover bg-center group-hover:scale-110 transition-transform" style="background-image: url('https://readdy.ai/api/search-image?query=fresh%20strawberries%20close%20up%20macro%20photography%2C%20vibrant%20red%20color%2C%20professional%20food%20styling%2C%20clean%20white%20background&amp;width=200&amp;height=200&amp;seq=flavor1&amp;orientation=squarish')"></div>
+<span class="text-secondary font-medium">Fresa</span>
+</div>
+<div class="text-center group cursor-pointer">
+<div class="w-20 h-20 mx-auto mb-3 rounded-full bg-cover bg-center group-hover:scale-110 transition-transform" style="background-image: url('https://readdy.ai/api/search-image?query=fresh%20mango%20slices%2C%20tropical%20orange%20yellow%20color%2C%20professional%20food%20photography%2C%20vibrant%20presentation&amp;width=200&amp;height=200&amp;seq=flavor4&amp;orientation=squarish')"></div>
+<span class="text-secondary font-medium">Mango</span>
+</div>
+<div class="text-center group cursor-pointer">
+<div class="w-20 h-20 mx-auto mb-3 rounded-full bg-cover bg-center group-hover:scale-110 transition-transform" style="background-image: url('https://readdy.ai/api/search-image?query=fresh%20lemon%20slices%20and%20zest%2C%20bright%20yellow%20citrus%2C%20professional%20food%20photography%2C%20clean%20white%20background&amp;width=200&amp;height=200&amp;seq=flavor5&amp;orientation=squarish')"></div>
+<span class="text-secondary font-medium">Limón</span>
+</div>
+<div class="text-center group cursor-pointer">
+<div class="w-20 h-20 mx-auto mb-3 rounded-full bg-cover bg-center group-hover:scale-110 transition-transform" style="background-image: url('https://readdy.ai/api/search-image?query=fresh%20passion%20fruit%20cut%20in%20half%20showing%20seeds%20and%20pulp%2C%20vibrant%20tropical%20fruit%2C%20professional%20food%20photography%2C%20clean%20white%20background&amp;width=200&amp;height=200&amp;seq=flavor6&amp;orientation=squarish')"></div>
+<span class="text-secondary font-medium">Maracuyá</span>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div>
+<h2 class="text-4xl font-['Playfair_Display'] font-bold text-secondary mb-6">Nuestro Proceso Artesanal</h2>
+<p class="text-lg text-secondary/70 mb-8 font-['Montserrat']">
+Cada carlota es elaborada con dedicación y técnicas tradicionales que garantizan la máxima calidad y sabor en cada bocado.
+</p>
+<div class="space-y-6">
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 flex items-center justify-center bg-primary rounded-full flex-shrink-0">
+<i class="ri-leaf-line text-secondary text-xl"></i>
+</div>
+<div>
+<h3 class="font-semibold text-secondary mb-2">Ingredientes Premium</h3>
+<p class="text-secondary/70">Seleccionamos solo los mejores ingredientes frescos y de temporada</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 flex items-center justify-center bg-primary rounded-full flex-shrink-0">
+<i class="ri-hand-heart-line text-secondary text-xl"></i>
+</div>
+<div>
+<h3 class="font-semibold text-secondary mb-2">Elaboración Artesanal</h3>
+<p class="text-secondary/70">Cada carlota es preparada a mano con técnicas tradicionales</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 flex items-center justify-center bg-primary rounded-full flex-shrink-0">
+<i class="ri-time-line text-secondary text-xl"></i>
+</div>
+<div>
+<h3 class="font-semibold text-secondary mb-2">Tiempo de Reposo</h3>
+<p class="text-secondary/70">Permitimos el tiempo necesario para que los sabores se integren perfectamente</p>
+</div>
+</div>
+</div>
+</div>
+<div class="h-96 bg-cover bg-center rounded-2xl" style="background-image: url('https://static.readdy.ai/image/099f62a4eb979305a3f714413ff64b3d/ad30cf7007fecfe785bfcb32edbc51b7.jfif')"></div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-cream">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-['Playfair_Display'] font-bold text-secondary mb-4">Lo Que Dicen Nuestros Clientes</h2>
+<p class="text-xl text-secondary/70 font-['Montserrat']">Testimonios reales de quienes han probado nuestras carlotas</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-white p-8 rounded-2xl shadow-sm">
+<div class="flex items-center mb-4">
+<div class="flex space-x-1">
+<i class="ri-star-fill text-yellow-400"></i>
+<i class="ri-star-fill text-yellow-400"></i>
+<i class="ri-star-fill text-yellow-400"></i>
+<i class="ri-star-fill text-yellow-400"></i>
+<i class="ri-star-fill text-yellow-400"></i>
+</div>
+</div>
+<p class="text-secondary/80 mb-6 italic">"La carlota de chocolate y fresas es simplemente espectacular. La textura es perfecta y el sabor es increíble. Definitivamente volveré a pedir."</p>
+<div class="flex items-center">
+<div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center mr-4">
+<span class="text-secondary font-semibold">MR</span>
+</div>
+<div>
+<h4 class="font-semibold text-secondary">María Rodríguez</h4>
+<p class="text-secondary/60 text-sm">Cliente frecuente</p>
+</div>
+</div>
+</div>
+<div class="bg-white p-8 rounded-2xl shadow-sm">
+<div class="flex items-center mb-4">
+<div class="flex space-x-1">
+<i class="ri-star-fill text-yellow-400"></i>
+<i class="ri-star-fill text-yellow-400"></i>
+<i class="ri-star-fill text-yellow-400"></i>
+<i class="ri-star-fill text-yellow-400"></i>
+<i class="ri-star-fill text-yellow-400"></i>
+</div>
+</div>
+<p class="text-secondary/80 mb-6 italic">"Pedí una carlota personalizada para el cumpleaños de mi esposa y superó todas mis expectativas. El servicio al cliente es excepcional."</p>
+<div class="flex items-center">
+<div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center mr-4">
+<span class="text-secondary font-semibold">CL</span>
+</div>
+<div>
+<h4 class="font-semibold text-secondary">Carlos López</h4>
+<p class="text-secondary/60 text-sm">Pedido especial</p>
+</div>
+</div>
+</div>
+<div class="bg-white p-8 rounded-2xl shadow-sm">
+<div class="flex items-center mb-4">
+<div class="flex space-x-1">
+<i class="ri-star-fill text-yellow-400"></i>
+<i class="ri-star-fill text-yellow-400"></i>
+<i class="ri-star-fill text-yellow-400"></i>
+<i class="ri-star-fill text-yellow-400"></i>
+<i class="ri-star-fill text-yellow-400"></i>
+</div>
+</div>
+<p class="text-secondary/80 mb-6 italic">"La carlota tropical de mango es mi favorita. Los sabores son auténticos y la presentación es hermosa. Altamente recomendado."</p>
+<div class="flex items-center">
+<div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center mr-4">
+<span class="text-secondary font-semibold">AS</span>
+</div>
+<div>
+<h4 class="font-semibold text-secondary">Ana Sánchez</h4>
+<p class="text-secondary/60 text-sm">Amante de postres</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="pedidos" class="py-20 bg-white">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-['Playfair_Display'] font-bold text-secondary mb-4">Personaliza Tu Carlota</h2>
+<p class="text-xl text-secondary/70 font-['Montserrat']">Crea la carlota perfecta según tus gustos y preferencias</p>
+</div>
+<div class="bg-cream rounded-2xl p-8">
+<form class="space-y-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block text-secondary font-semibold mb-3">Tamaño</label>
+<div class="space-y-3">
+<label class="flex items-center space-x-3 cursor-pointer">
+<input type="radio" name="size" value="individual" class="custom-checkbox">
+<span class="text-secondary">Individual (1 persona) - $15.99</span>
+</label>
+<label class="flex items-center space-x-3 cursor-pointer">
+<input type="radio" name="size" value="mediana" class="custom-checkbox" checked>
+<span class="text-secondary">Mediana (4-6 personas) - $28.99</span>
+</label>
+<label class="flex items-center space-x-3 cursor-pointer">
+<input type="radio" name="size" value="grande" class="custom-checkbox">
+<span class="text-secondary">Grande (8-10 personas) - $45.99</span>
+</label>
+</div>
+</div>
+<div>
+<label class="block text-secondary font-semibold mb-3">Sabor Principal</label>
+<div class="relative">
+<button type="button" class="w-full bg-white border border-gray-200 rounded-lg px-4 py-3 text-left flex items-center justify-between">
+<span class="text-secondary">Chocolate y Fresas</span>
+<i class="ri-arrow-down-s-line text-secondary"></i>
+</button>
+</div>
+</div>
+</div>
+<div>
+<label class="block text-secondary font-semibold mb-3">Ingredientes Extra</label>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+<label class="flex items-center space-x-2 cursor-pointer">
+<input type="checkbox" class="custom-checkbox">
+<span class="text-secondary text-sm">Frutos rojos (+$3)</span>
+</label>
+<label class="flex items-center space-x-2 cursor-pointer">
+<input type="checkbox" class="custom-checkbox">
+<span class="text-secondary text-sm">Nueces (+$2)</span>
+</label>
+<label class="flex items-center space-x-2 cursor-pointer">
+<input type="checkbox" class="custom-checkbox">
+<span class="text-secondary text-sm">Chocolate extra (+$4)</span>
+</label>
+<label class="flex items-center space-x-2 cursor-pointer">
+<input type="checkbox" class="custom-checkbox">
+<span class="text-secondary text-sm">Crema batida (+$2)</span>
+</label>
+<label class="flex items-center space-x-2 cursor-pointer">
+<input type="checkbox" class="custom-checkbox">
+<span class="text-secondary text-sm">Decoración especial (+$5)</span>
+</label>
+<label class="flex items-center space-x-2 cursor-pointer">
+<input type="checkbox" class="custom-checkbox">
+<span class="text-secondary text-sm">Mensaje personalizado (+$3)</span>
+</label>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block text-secondary font-semibold mb-3">Entrega</label>
+<div class="flex items-center space-x-4">
+<span class="text-secondary">Entrega a domicilio</span>
+<div class="custom-switch active" onclick="toggleSwitch(this)"></div>
+</div>
+</div>
+<div>
+<label class="block text-secondary font-semibold mb-3">Fecha de Entrega</label>
+<input type="date" class="w-full bg-white border border-gray-200 rounded-lg px-4 py-3 text-secondary">
+</div>
+</div>
+<div>
+<label class="block text-secondary font-semibold mb-3">Instrucciones Especiales</label>
+<textarea class="w-full bg-white border border-gray-200 rounded-lg px-4 py-3 text-secondary resize-none" rows="3" placeholder="Comparte cualquier detalle especial para tu pedido..."></textarea>
+</div>
+<div class="bg-white rounded-lg p-6">
+<div class="flex justify-between items-center mb-4">
+<span class="text-lg font-semibold text-secondary">Total Estimado:</span>
+<span class="text-2xl font-bold text-secondary">$31.99</span>
+</div>
+<button type="submit" class="w-full bg-secondary text-white py-4 !rounded-button font-semibold text-lg hover:bg-secondary/90 transition-colors whitespace-nowrap">
+Realizar Pedido
+</button>
+</div>
+</form>
+</div>
+</div>
+</section>
+<section class="py-20 bg-secondary text-white">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<h2 class="text-4xl font-['Playfair_Display'] font-bold mb-4">¿Listo para Probar la Perfección?</h2>
+<p class="text-xl mb-8 opacity-90">Únete a miles de clientes satisfechos y descubre por qué nuestras carlotas son las mejores de la ciudad</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+<button class="bg-primary text-secondary px-8 py-4 !rounded-button font-semibold text-lg hover:bg-opacity-90 transition-colors whitespace-nowrap">
+Ver Menú Completo
+</button>
+<button id="whatsappButton" class="border-2 border-white text-white px-8 py-4 !rounded-button font-semibold text-lg hover:bg-white hover:text-secondary transition-colors whitespace-nowrap flex items-center gap-2">
+<i class="ri-whatsapp-fill"></i>
+Escribir Ahora
+</button>
+</div>
+<div class="bg-white/10 rounded-2xl p-8 max-w-md mx-auto">
+<h3 class="text-xl font-semibold mb-4">Suscríbete a Nuestro Newsletter</h3>
+<p class="mb-6 opacity-90">Recibe ofertas exclusivas y novedades directamente en tu email</p>
+<div class="flex gap-3">
+<input type="email" placeholder="tu@email.com" class="flex-1 bg-white/20 border border-white/30 rounded-lg px-4 py-3 text-white placeholder-white/70">
+<button class="bg-primary text-secondary px-6 py-3 !rounded-button font-semibold hover:bg-opacity-90 transition-colors whitespace-nowrap">
+Suscribir
+</button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer id="contacto" class="bg-white py-16">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div>
+<h3 class="text-2xl font-['Pacifico'] text-secondary mb-4">Carlotísima</h3>
+<p class="text-secondary/70 mb-6">Creando momentos dulces con las mejores carlotas artesanales de la ciudad.</p>
+<div class="flex space-x-4">
+<a href="https://readdy.link/share/482fd6d02418d315e8090486841bf69e#" class="w-10 h-10 flex items-center justify-center bg-primary rounded-full text-secondary hover:bg-opacity-80 transition-colors">
+<i class="ri-facebook-fill"></i>
+</a>
+<a href="https://readdy.link/share/482fd6d02418d315e8090486841bf69e#" class="w-10 h-10 flex items-center justify-center bg-primary rounded-full text-secondary hover:bg-opacity-80 transition-colors">
+<i class="ri-instagram-line"></i>
+</a>
+<a href="https://readdy.link/share/482fd6d02418d315e8090486841bf69e#" class="w-10 h-10 flex items-center justify-center bg-primary rounded-full text-secondary hover:bg-opacity-80 transition-colors">
+<i class="ri-whatsapp-fill"></i>
+</a>
+</div>
+</div>
+<div>
+<h4 class="font-semibold text-secondary mb-4">Productos</h4>
+<ul class="space-y-2 text-secondary/70">
+<li><a href="https://readdy.link/share/482fd6d02418d315e8090486841bf69e#" class="hover:text-primary transition-colors">Carlotas Clásicas</a></li>
+<li><a href="https://readdy.link/share/482fd6d02418d315e8090486841bf69e#" class="hover:text-primary transition-colors">Carlotas Tropicales</a></li>
+<li><a href="https://readdy.link/share/482fd6d02418d315e8090486841bf69e#" class="hover:text-primary transition-colors">Carlotas Especiales</a></li>
+<li><a href="https://readdy.link/share/482fd6d02418d315e8090486841bf69e#" class="hover:text-primary transition-colors">Pedidos Personalizados</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-semibold text-secondary mb-4">Servicio</h4>
+<ul class="space-y-2 text-secondary/70">
+<li><a href="https://readdy.link/share/482fd6d02418d315e8090486841bf69e#" class="hover:text-primary transition-colors">Entrega a Domicilio</a></li>
+<li><a href="https://readdy.link/share/482fd6d02418d315e8090486841bf69e#" class="hover:text-primary transition-colors">Eventos Especiales</a></li>
+<li><a href="https://readdy.link/share/482fd6d02418d315e8090486841bf69e#" class="hover:text-primary transition-colors">Catering</a></li>
+<li><a href="https://readdy.link/share/482fd6d02418d315e8090486841bf69e#" class="hover:text-primary transition-colors">Política de Devoluciones</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-semibold text-secondary mb-4">Contacto</h4>
+<div class="space-y-3 text-secondary/70">
+<div class="flex items-center space-x-3">
+<div class="w-5 h-5 flex items-center justify-center">
+<i class="ri-map-pin-line"></i>
+</div>
+<span>Av. Dulces Sueños 123, Ciudad</span>
+</div>
+<div class="flex items-center space-x-3">
+<div class="w-5 h-5 flex items-center justify-center">
+<i class="ri-phone-line"></i>
+</div>
+<span>+1 (829) 123-4567</span>
+</div>
+<div class="flex items-center space-x-3">
+<div class="w-5 h-5 flex items-center justify-center">
+<i class="ri-mail-line"></i>
+</div>
+<span>carlotisima@gmail.com</span>
+</div>
+<div class="flex items-center space-x-3">
+<div class="w-5 h-5 flex items-center justify-center">
+<i class="ri-time-line"></i>
+</div>
+<span>Lun-Vie: 9:00 a.m -6:00 p.m</span>
+</div>
+</div>
+</div>
+</div>
+<div class="border-t border-gray-200 mt-12 pt-8 text-center text-secondary/60">
+<p>© 2024 Carlotísima. Todos los derechos reservados. | Política de Privacidad | Términos de Servicio</p>
+</div>
+</div>
+</footer>
+</body>
+</html>
